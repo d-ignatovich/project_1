@@ -1,0 +1,17 @@
+V=float(input())
+litr=V*4.55 #Number of liters of gasoline.
+barrel=V/19.5 #The number of barrels necessary for the production of gasoline.
+gas=V*20 #The volume of carbon dioxide
+ethanol=V*115000/75700 #Volume of ethanol in gallons
+cost=V*3.00
+
+nsk=1625631 * 15 #Petrol consumption per day in Novosibirsk
+rus=146745098 * 365 * 15 #Petrol consumption per year in Russia
+
+print('Объём бензина в литрах:', litr)
+print('Количество баррелей нефти, требуемых для того чтобы получить такой объем бензина:', barrel)
+print('Объем углекислого газа при сжигании в двигателе этого бензина (в фунтах):', gas)
+print('Эквивалентный объем этанола (в галлонах)', ethanol)
+print('Стоимость в долларах США:', cost)
+print('Примерный расход бензина (в литрах) для Новосибирска в день,:', nsk)
+print('Примерный расход бензина (в литрах) для России в год:', rus)
